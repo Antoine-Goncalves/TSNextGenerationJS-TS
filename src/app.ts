@@ -26,4 +26,11 @@ const person = {
 
 const copiedPerson = person;
 
-console.log(copiedPerson === person);
+const add = (...numbers: number[]) => {
+  return numbers.reduce((curResult, curValue) => {
+    return curResult + curValue;
+  }, 0);
+};
+
+const addNumbers = add(5, 4, 1, 10);
+console.log(addNumbers);
