@@ -17,8 +17,6 @@ if (button) {
 printOutput(add(14));
 
 const hobbies = ["Football", "Muscu"];
-const activeHobbies = ["Hiking"];
-
-activeHobbies.push(...hobbies);
+const activeHobbies = ["Hiking", ...hobbies];
 
 console.log(activeHobbies);
