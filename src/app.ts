@@ -19,4 +19,11 @@ printOutput(add(14));
 const hobbies = ["Football", "Muscu"];
 const activeHobbies = ["Hiking", ...hobbies];
 
-console.log(activeHobbies);
+const person = {
+  username: "Antoine",
+  age: 23
+};
+
+const copiedPerson = person;
+
+console.log(copiedPerson === person);
