@@ -1,20 +1,20 @@
-const userName = "Antoine";
+// const userName = "Antoine";
 
-let age = 24;
+// let age = 24;
 
-age = 23;
+// age = 23;
 
-const add = (a: number, b: number = 10) => a + b;
+// const add = (a: number, b: number = 10) => a + b;
 
-const printOutput: (a: number | string) => void = output => console.log(output);
+// const printOutput: (a: number | string) => void = output => console.log(output);
 
-const button = document.querySelector("button");
+// const button = document.querySelector("button");
 
-if (button) {
-  button.addEventListener("click", event => console.log(event));
-}
+// if (button) {
+//   button.addEventListener("click", event => console.log(event));
+// }
 
-printOutput(add(14));
+// printOutput(add(14));
 
 const hobbies = ["Football", "Muscu"];
 const activeHobbies = ["Hiking", ...hobbies];
